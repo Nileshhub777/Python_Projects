@@ -2,12 +2,15 @@
 import random
 
 #Asking user to input the length of the password to be generated
-
 pass_len=int(input("enter the length of the password :"))
 
 # Define possible characters manually in a simple way
 pass_data = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*?"
 
-pass_generate=''.join(random.sample(pass_data,pass_len))
+# Check if the requested length exceeds the available characters
+if pass_len > len(pass_data):
+    print("The entered length of pass cannot exceed than",len(pass_data),"characters.")
 
-print(pass_generate)
+else:
+    pass_generate=''.join(random.sample(pass_data,pass_len))
+    print("Generated password :", pass_generate)
