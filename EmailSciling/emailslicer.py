@@ -5,6 +5,6 @@ spl1=email.split('@')
 print(spl1)
 
 username = spl1[0]
-domain= spl1[-1]
+domain_email= spl1[-1]
 
-print(f"Your username is {username} & domain is {domain}")
+print(f"Your username is {username} & domain is {domain_email}")
