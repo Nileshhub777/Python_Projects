@@ -1,2 +1,2 @@
 import pywhatkit as pwt
-pwt.search("Site reliability engineering")
+pwt.search("Site reliability engineering practices")
