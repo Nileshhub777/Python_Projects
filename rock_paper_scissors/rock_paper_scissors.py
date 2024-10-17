@@ -5,10 +5,10 @@ def rock_paper_scissors():
     opponent = random.choice(choices)
 
     if player == opponent:
-        return print(f"Its a Tie! Choice is {opponent}")
+        return print(f"Its a Tie!! Choice is {opponent}")
 
     if check_win(player, opponent):
-        return print(f"Yay! you won! Choice is {opponent}")
+        return print(f"Yay! you won!! Choice is {opponent}")
 
     if check_win(player, opponent) != True:
         return print(f"You lost! Choice is {opponent}")
