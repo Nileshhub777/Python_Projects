@@ -9,6 +9,6 @@ print("Total_expenses: ", Total_expenses)
 if Total_expenses > Target:
     print("You have exceeded the weekly Limit !!")
 else:
-    print("Yay !! You are within the Target Limit :-) ")
+    print("Yay !!! You are within the Target Limit :-) ")
 
 
