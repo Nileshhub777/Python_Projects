@@ -1,14 +1,15 @@
-Target = 899
-Total_expenses=0
+Target = 901
+daily_expenses = 0
 
 for i in range(7):
-    day_expenses = int(input(f"Expenses on Day {i+1} :"))
-    Total_expenses+=day_expenses
-print("Total_expenses: ", Total_expenses)
+    expense = int(input(f"Enter Daily expense for day {i+1} :"))
+    daily_expenses+=expense
 
-if Total_expenses > Target:
-    print("You have exceeded the weekly Limit !!")
+if daily_expenses > Target:
+    print("You have exceeded the target limit of",Target)
 else:
-    print("Yay !!! You are within the Target Limit :-) ")
+    print("You are within the target limit. Your daily expense count is:", daily_expenses)
+
+
 
 
