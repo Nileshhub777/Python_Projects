@@ -1,5 +1,5 @@
 try:
-    email=input("Enter the email id :").strip()
+    email=input("Please enter the email id :").strip()
 
     if '@' not in email or email.count('@') != 1:
         raise ValueError("Invalid email format !!. Please enter a valid email address.")
