@@ -20,4 +20,4 @@ except ValueError as e:
     print(e)
 
 except Exception as e:
-    print("An unhandled error occured:", e)
+    print("An unhandled error has occurred:", e)
