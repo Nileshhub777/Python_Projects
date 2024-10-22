@@ -1,3 +1,3 @@
 import pywhatkit as pwt
 
-pwt.playonyt("Devops Projects")
+pwt.playonyt("Devops Projects online")
