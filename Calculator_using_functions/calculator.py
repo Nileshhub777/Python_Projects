@@ -44,7 +44,7 @@ while True:
         if next_cal == 'no':
             break
     else:
-        print("Enter a valid choice !!")
+        print("Enter the valid choice !!")
 
 
 
