@@ -11,7 +11,7 @@ def division(x,y):
     return x / y
 
 
-print("** Select an operation for Calculator **")
+print("** Select the operation for Calculator **")
 print("1.Add")
 print("2.Subtraction")
 print("3.Multiplication")
