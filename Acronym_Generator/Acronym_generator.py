@@ -11,4 +11,4 @@ a = ""
 # for loop to append all acronyms of phrase
 for word in ind_words:
     a=a+word[0].upper()
-print("The acronym of ---> ", usr_input,"is :", a)
+print("The acronym of --> ", usr_input,"is :", a)
