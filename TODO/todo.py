@@ -13,7 +13,7 @@ while True:
         tasks.append(task)
         print("Task added!")
     elif choice == '2':
-        task = input("Enter the task to remove: ")
+        task = input("Enter the task need to be removed: ")
         if task in tasks:
             tasks.remove(task)
             print("Task removed!")
