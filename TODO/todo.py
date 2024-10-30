@@ -27,4 +27,4 @@ while True:
         print("Exiting..")
         break
     else:
-        print("Invalid choice...Try again.")
+        print("Invalid choice.Try again.")
