@@ -1,4 +1,4 @@
-email=input("Enter the email id :")
+email=input("Do enter the email id :")
 k,j,d = 0,0,0
 if len(email) > 6:
     if email[0].isalpha():
