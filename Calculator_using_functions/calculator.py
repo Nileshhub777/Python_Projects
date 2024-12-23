@@ -40,11 +40,11 @@ while True:
         elif choice == '4':
             print(num1, "/", num2, "=", division(num1, num2))
 
-        next_cal=input("Do you want to do a another calculation (yes/no) ?")
+        next_cal=input("Do you want to do a another calculation (yes/no) ? ")
         if next_cal == 'no':
             break
     else:
-        print("Enter the valid choice !!")
+        print("Enter the valid choice !")
 
 
 
