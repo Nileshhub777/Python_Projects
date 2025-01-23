@@ -7,6 +7,6 @@ def countdown(seconds):
         print(timer, end="\r")
         time.sleep(1)
         seconds -= 1
-    print("Time's up!")
+    print("Time's up!!")
 
 countdown(10)  # Set countdown time in seconds
