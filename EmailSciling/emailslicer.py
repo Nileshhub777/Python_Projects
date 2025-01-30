@@ -12,7 +12,7 @@ try:
 
 
     if not username or not domain_email:
-        raise ValueError ("Invalid email address. Username or domain is missing.")
+        raise ValueError ("Invalid email address. Either Username or domain is missing.")
 
     print(f"Your username is {username} & domain is {domain_email}")
 
@@ -20,4 +20,4 @@ except ValueError as e:
     print(e)
 
 except Exception as e:
-    print("An unhandled error has occurred:", e)
+    print("An unhandled error has occurred.", e)
