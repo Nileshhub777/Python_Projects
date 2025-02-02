@@ -5,7 +5,7 @@ from colorama import Back, Fore
 # This line is make sure that the color style resets once the execution of program is complete
 colorama.init(autoreset = True)
 
-text = input("Enter the phrase or the sentence : ")
+text = input("Enter the phrase or a sentence : ")
 
 # Colorama has limited color options
 print(Fore.BLACK + Back.WHITE  + text)
