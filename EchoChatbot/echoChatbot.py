@@ -1,4 +1,4 @@
-print("Let's chat niw !! You can enter 'quit' to exit...")
+print("Let's chat here !! You can enter 'quit' to exit...")
 
 while True:
     user=input("You :")
