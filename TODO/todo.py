@@ -24,7 +24,7 @@ while True:
         for i, task in enumerate(tasks, 1):
             print(f"{i}. {task}")
     elif choice == '4':
-        print("Exiting..")
+        print("Exiting now..")
         break
     else:
         print("Invalid choice..!!Try again.")
