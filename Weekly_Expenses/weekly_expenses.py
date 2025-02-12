@@ -8,7 +8,7 @@ for i in range(7):
 if daily_expenses > Target:
     print("You have exceeded the target limit of",Target)
 else:
-    print("You are within the target limit. Your daily expense count is:", daily_expenses)
+    print("You are within the target limit and Your daily expense and income count is:", daily_expenses)
 
 
 
