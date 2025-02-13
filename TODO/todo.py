@@ -20,7 +20,7 @@ while True:
         else:
             print("Task not found!")
     elif choice == '3':
-        print("\nYour Tasks:")
+        print("\nYour Tasks:-")
         for i, task in enumerate(tasks, 1):
             print(f"{i}. {task}")
     elif choice == '4':
