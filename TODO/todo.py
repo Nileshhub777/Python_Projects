@@ -16,9 +16,9 @@ while True:
         task = input("Enter the task need to be removed: ")
         if task in tasks:
             tasks.remove(task)
-            print("Task removed!")
+            print("Task is removed!")
         else:
-            print("Task not found!")
+            print("Task is not found!")
     elif choice == '3':
         print("\nYour Tasks:-")
         for i, task in enumerate(tasks, 1):
