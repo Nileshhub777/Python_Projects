@@ -2,10 +2,10 @@ tasks = []
 
 while True:
     print("\nTo-Do List App")
-    print("1. Add task")
-    print("2. Remove task")
-    print("3. View tasks")
-    print("4. Exit")
+    print("1.Add task")
+    print("2.Remove task")
+    print("3.View tasks")
+    print("4.Exit")
     choice = input("Choose an option: ")
 
     if choice == '1':
@@ -20,11 +20,11 @@ while True:
         else:
             print("Task is not found!")
     elif choice == '3':
-        print("\nYour Tasks:-")
+        print("\n Your Tasks:-")
         for i, task in enumerate(tasks, 1):
             print(f"{i}. {task}")
     elif choice == '4':
         print("Exiting now..")
         break
     else:
-        print("Invalid choice..!!Try again.")
+        print("Invalid choice. !!Try again.")
