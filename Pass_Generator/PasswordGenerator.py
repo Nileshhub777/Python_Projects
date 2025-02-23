@@ -9,7 +9,7 @@ pass_data = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%
 
 # Check if the requested length exceeds the available characters
 if pass_len > len(pass_data):
-    print("The entered length of the password cannot exceed than",len(pass_data),"characters.")
+    print("The length of the password cannot exceed than",len(pass_data),"characters.")
 
 else:
     pass_generate=''.join(random.sample(pass_data,pass_len))
