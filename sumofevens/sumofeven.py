@@ -5,4 +5,4 @@ def sumofevens(numbers):
 numbers = [1,2,3,4,5,6,7,8]
 result = sumofevens(numbers)
 
-print("sum result :",result)
+print("Sum result :",result)
