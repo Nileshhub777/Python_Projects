@@ -3,7 +3,7 @@ import random
 
 # Storing random data into lists to create story.
 when = ['A long time ago', 'Yesterday', 'Before you were born', 'In future', 'Before Thanos arrived']
-who = ['Shazamm', 'Iron Man', 'Batman', 'Superman', 'Captain America']
+who = ['Shazam', 'Iron Man', 'Batman', 'Superman', 'Captain America']
 went = ['Arkham Asylum', 'Gotham City', 'Stark Tower', 'Bat Cave', 'Avengers HQ']
 what = ['to eat a lot of the cakes', 'to fight for justice', 'to steal the ice creams', 'to dance']
 
