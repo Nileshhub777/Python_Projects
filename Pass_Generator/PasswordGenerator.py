@@ -13,4 +13,4 @@ if pass_len > len(pass_data):
 
 else:
     pass_generate=''.join(random.sample(pass_data,pass_len))
-    print("Generated password is :", pass_generate)
+    print("Generated password :", pass_generate)
