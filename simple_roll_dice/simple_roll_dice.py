@@ -9,7 +9,7 @@ while True:
     print(f"The value is :", random.randint(1,6))
 
     #Asking user to roll again or quit.
-    repeat = input("Roll Dice again. ? 'Y' for yes & 'n' for No : " )
+    repeat = input("Roll Dice again ? Type, 'Y' for yes & 'n' for No : " )
 
     #If the user answers negative, the loop will break and program execution stops otherwise, the program will continue executing.
     if repeat == 'n':
