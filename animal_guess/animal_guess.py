@@ -12,7 +12,7 @@ def check_guess(guess, answer):
                 guess = input("Sorry Wrong Answer, please try again")
             attempt = attempt + 1
     if attempt == 3:
-        print("The Correct answer is ", answer)
+        print("The Correct answer is :", answer)
 
 
 score = 0
