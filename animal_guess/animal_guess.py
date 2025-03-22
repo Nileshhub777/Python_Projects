@@ -16,7 +16,7 @@ def check_guess(guess, answer):
 
 
 score = 0
-print("Guess the Animal")
+print("Do guess the Animal !!")
 guess1 = input("Which bear lives at the North Pole ? ")
 check_guess(guess1, "Polar bear")
 guess2 = input("Which is fastest land animal in world ? ")
