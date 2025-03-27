@@ -78,7 +78,7 @@ my_dummy_reflections= {
 
 
 #default message at the start of chat
-print("Hi, I'm a clever programmer and I like to chat here. \n Please type lowercase English language to start a conversation. Type quit to leave ")
+print("Hi, I am a clever programmer and I like to chat here. \n Please type lowercase English language to start a conversation. Type quit to leave ")
 #Create Chat Bot
 chat = Chat(pairs, reflections)
 
