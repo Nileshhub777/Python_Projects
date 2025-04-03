@@ -9,7 +9,7 @@ def check_guess(guess, answer):
             still_guessing = False
         else:
             if attempt < 2:
-                guess = input("Sorry Wrong Answer, please try again")
+                guess = input("Sorry Wrong Answer, please try the guess again")
             attempt = attempt + 1
     if attempt == 3:
         print("The Correct answer is :", answer)
