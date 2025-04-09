@@ -35,7 +35,7 @@ def main():
     cpu = check_cpu()
     mem = check_memory()
     disk = check_disk()
-    print(f"CPU: {cpu}% | Memory: {mem}% | Disk: {disk:.2f}%")
+    print(f"CPU Usage: {cpu}% | Memory Usage: {mem}% | Disk Usage: {disk:.2f}%")
 
 if __name__ == "__main__":
     main()
