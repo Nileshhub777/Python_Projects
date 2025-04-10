@@ -12,7 +12,7 @@ try:
 
 
     if not username or not domain_email:
-        raise ValueError ("Invalid email address. Either Username or domain is missing.")
+        raise ValueError ("Invalid email address. Either the Username or domain is also missing.")
 
     print(f"Your username is {username} & domain is {domain_email}")
 
