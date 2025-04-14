@@ -2,7 +2,7 @@ from tkinter import Label, Tk
 import time
 app_window = Tk()
 app_window.title("Digital Time Clock")
-app_window.geometry("420x150")
+app_window.geometry("420x250")
 app_window.resizable(1,1)
 
 text_font= ("Bolder", 68, 'bold')
