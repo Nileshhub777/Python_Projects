@@ -19,7 +19,7 @@ score = 0
 print("Let's guess the Animal !!")
 guess1 = input("Which bear lives at the North Pole ? ")
 check_guess(guess1, "Polar bear")
-guess2 = input("Which is fastest land animal in the world ? ")
+guess2 = input("Who is fastest land animal in the world ? ")
 check_guess(guess2, "Cheetah")
 guess3 = input("Which is the largest animal ? ")
 check_guess(guess3, "Blue Whale")
