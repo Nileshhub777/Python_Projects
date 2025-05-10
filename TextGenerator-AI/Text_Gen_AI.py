@@ -8,8 +8,8 @@ def fetch_quote():
             author=data['a']
             print(f"{quote} - {author}")
         else:
-            print("Failed to fetch")
+            print("Failed to fetch the code")
             print(response.status_code)
     except requests.exceptions.RequestException as e:(
-                print("Network Error :", e))
+                print("Network Error: ", e))
 fetch_quote()
