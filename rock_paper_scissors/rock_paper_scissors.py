@@ -8,7 +8,7 @@ def rock_paper_scissors():
         return print(f"It's a Tie!! Choice is {opponent}")
 
     if check_win(player, opponent):
-        return print(f"Yay! you have won the game! Choice is {opponent}")
+        return print(f"Hey! you have won the game! Choice is {opponent}")
 
     if check_win(player, opponent) != True:
         return print(f"You lost! Choice is {opponent}")
