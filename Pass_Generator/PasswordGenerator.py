@@ -2,7 +2,7 @@
 import random
 
 #Asking user to input the length of the password to be generated
-pass_len=int(input("Enter the length of password :"))
+pass_len=int(input("Enter the length of the password :"))
 
 # Define possible characters manually in a simple way
 pass_data = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*?"
