@@ -4,7 +4,7 @@ import random
 # Storing random data into lists to create story.
 when = ['A long time ago', 'Yesterday', 'Before even you were born', 'In the future', 'Before Thanos arrived']
 who = ['Shazam', 'Iron Man', 'Batman', 'Spiderman', 'Captain America']
-went = ['Angryt Asylum', 'Gotham City', 'Stark Tower', 'Bat Cave', 'Avengers HQ']
+went = ['Angryt Asylum', 'Gotham City', 'Stark Tower', 'Bat Cave', 'Avengers HeadQ']
 what = ['to eat a lot of the cakes', 'to fight for justice', 'to steal the ice creams', 'to dance']
 
 # Using string concatenition & randome.choice() to print a random element from all the lists
